@@ -1,0 +1,12 @@
+[submodule "thirdparty/LPS25H-driver"]
+	path = thirdparty/LPS25H-driver
+	url = https://github.com/jbroutier/LPS25H-driver.git
+[submodule "thirdparty/LSM9DS1-driver"]
+	path = thirdparty/LSM9DS1-driver
+	url = https://github.com/jbroutier/LSM9DS1-driver.git
+[submodule "thirdparty/LED2472G-driver"]
+	path = thirdparty/LED2472G-driver
+	url = https://github.com/jbroutier/LED2472G-driver.git
+[submodule "thirdparty/HTS221-driver"]
+	path = thirdparty/HTS221-driver
+	url = https://github.com/jbroutier/HTS221-driver.git
