@@ -33,6 +33,6 @@ add_library(LSM9DS1-driver
         ${LSM9DS1_DRIVER_DIR}/LSM9DS1_Types.h
         ${LSM9DS1_DRIVER_DIR}/LSM9DS1_Registers.h)
 
-add_executable(sense-hat-cli src/main.cpp)
+add_executable(sense-hat-cli src/main.cpp src/sense-hat.cpp src/sense-hat.hpp)
 
 target_link_libraries(sense-hat-cli HTS221-driver LED2472G-driver LPS25H-driver LSM9DS1-driver i2c)
